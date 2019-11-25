@@ -1,0 +1,14 @@
+section{
+    &.skills {
+        background: white;
+        border: thin rgba(0, 0, 0, 0.1) solid;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        padding: 2rem;
+        margin-top: -4rem; 
+        .card-img-top {
+            width: 2rem; 
+        }
+    }
+}
