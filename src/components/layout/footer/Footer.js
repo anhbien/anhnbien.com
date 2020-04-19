@@ -1,18 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Footer.scss'
 
-export default class Footer extends Component {
-    render() {
-        return (
-            <footer class="container-fluid text-center">
-                <div class="container">
-                    <div class="row">
-                    <div class="col-12">
-                        <p>Copyright ©anhnbien.com. All rights reserved.</p>
-                    </div>
-                    </div>
+export default function Footer() {
+    return (
+        <footer className="container-fluid text-center">
+            <div className="container">
+                <div className="row">
+                <div className="col-12">
+                    <p>{`Copyright © ${(new Date().getFullYear())} anhnbien.com`}</p>
                 </div>
-            </footer>
-        )
-    }
+                </div>
+            </div>
+        </footer>
+    )
 }
