@@ -3,7 +3,7 @@ import './Skills.scss'
 import data from '../../../../services/skills.json'
 
 export default function Skills() {
-    const publicUrl = process.env.PUBLIC_URL;
+    const publicUrl = process.env.PUBLIC_URL + '/';
     const skills = data.Skills;
     return (
         <section className="skills container text-center mb-5">
