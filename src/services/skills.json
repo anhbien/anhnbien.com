@@ -1,0 +1,56 @@
+{
+    "Skills":[
+        {
+            "name": "Front-end Developer",
+            "discription": "Cleanliness, maintainability, scalability are the most important coding qualities",
+            "icon": "frontend.svg",
+            "specialties": [
+                {
+                    "name": "Languages",
+                    "specialty":[
+                        {"name": "HTML/CSS"},
+                        {"name": "ReactJS"},
+                        {"name": "AngularJS"},
+                        {"name": "Javascript"},
+                        {"name": "Bootstrap"}
+                    ]
+                },
+                {
+                    "name": "Dev Tools",
+                    "specialty":[
+                        {"name": "Git flow"},
+                        {"name": "Visual Studio"},
+                        {"name": "VS Code"},
+                        {"name": "Dreamweaver"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Designer",
+            "discription": "I value human-centered, interative, clean designs, and mimimalist structures",
+            "icon": "designer.svg",
+            "specialties": [
+                {
+                    "name": "Products",
+                    "specialty":[
+                        {"name": "Personas"},
+                        {"name": "User Journeys"},
+                        {"name": "Wireframes"},
+                        {"name": "Prototypes"},
+                        {"name": "Usability Testings"}
+                    ]
+                },
+                {
+                    "name": "Design Tools",
+                    "specialty":[
+                        {"name": "Balsamiq"},
+                        {"name": "Proto.io"},
+                        {"name": "Photoshop"},
+                        {"name": "Illustrator"}
+                    ]
+                }
+            ]
+        }
+    ]
+}
